@@ -1,8 +1,8 @@
 {
   "name": "client",
   "version": "0.0.1",
-  "description": " student poll application",
-  "productName": "stupent poll",
+  "description": "Student Poll",
+  "productName": "student-poll",
   "author": "JohnPB227 <john.bobadilla@bronxsoftware.org>",
   "private": true,
   "scripts": {

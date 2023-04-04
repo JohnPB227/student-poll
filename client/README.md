@@ -1,6 +1,6 @@
-# stupent poll (client)
+# student-poll (client)
 
- student poll application
+Student Poll
 
 ## Install the dependencies
 ```bash
