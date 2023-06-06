@@ -1,9 +1,9 @@
 {
   "name": "client",
   "version": "0.0.1",
-  "description": "Student Poll",
-  "productName": "student-poll",
-  "author": "JohnPB227 <john.bobadilla@bronxsoftware.org>",
+  "description": "This app surveys students about their job interest.",
+  "productName": "BASE Student Job Poll",
+  "author": "John Bobadilla <john.bobadilla@bronxsoftware.org>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
