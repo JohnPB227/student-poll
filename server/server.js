@@ -11,6 +11,7 @@ app.use("/api", require("./routes/poll")); // load our routes file for api calls
 // for production we must serve the HTML page that holds the code that runs in the browser
 if (process.env.NODE_ENV==='PROD'){ 
   let path = require('path');
+  console.log(path.resolve('public/index.html'))
   app.use(express.static(__dirname + '/public'));
   app.get('/', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
