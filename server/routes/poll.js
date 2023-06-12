@@ -8,3 +8,5 @@ router.get('/results', pollController.results); // route to load the poll result
 
 // make the above code accessible for other code modules
 module.exports = router;
+const refController = require('../controllers/refController.js');
+router.get('/school-list', refController.schoolList); // route to load the school list

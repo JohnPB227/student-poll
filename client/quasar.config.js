@@ -62,7 +62,7 @@ module.exports = configure(function ( ctx ) {
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
-        BASE_URL: ctx.dev ? 'http://localhost:3000' : 'http:54.226.190.109',
+        BASE_URL: ctx.dev ? 'http://localhost:3000' : 'http://54.226.190.109',
         CREATOR_NAME: 'John Bobadilla',
         CREATOR_EMAIL: 'john.bobadilla@bronxsoftware.org',
         LINKEDIN: 'https://www.linkedin.com/in/john-bobadilla-870a8822a/',
